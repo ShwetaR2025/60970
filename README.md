@@ -11,6 +11,7 @@ Web authoring for mobile devices
     - Tablet (768px to 1024px)
     - Desktop (1024px and up)
 - Arranged the styles in the correct order i.e. starting with styles for mobile devices, followed by styles for tablets, and ending with styles for desktops.
+- Used Flexbox layout method to arrange the hero and card sections.
 
 ## View the web site
 [60970](https://htmlpreview.github.io/?https://github.com/ShwetaR2025/60970/blob/main/index.html)
