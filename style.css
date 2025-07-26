@@ -36,9 +36,38 @@ main {
 }
 
 img {
-    width: auto;
-    height: 150px;
+    width: 150px;
+    height: auto;
     margin-left: 20px 0;
     margin-right: 20px 0;
     float: right;
+}
+
+@media (max-width: 768px) {
+    /* Make the main heading smaller and more readable on mobile */
+    h1 {
+        font-size: 24px;
+    }
+    
+    /* Stack navigation items vertically */
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Make images responsive */
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    /* Reduce padding on small screens */
+    main {
+        padding: 20px;
+    }
+    
+    /* Make paragraphs easier to read */
+    p {
+        font-size: 18px;
+    }
 }
