@@ -1,4 +1,3 @@
-/* Add to the top of your CSS file */
 :root {
   --font-size-sm: clamp(0.8rem, 1.5vw, 0.9rem);
   --font-size-base: clamp(1rem, 2vw, 1.125rem);
