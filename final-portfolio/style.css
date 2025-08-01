@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: darkslategray;
+    color: white;
+    padding: 15px; /* Less padding on mobile */
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px; /* Mobile size as default */
+    margin: 0 0 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack vertically on mobile */
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px 0;
+    margin-right: 20px 0;
+    float: right;
+}
+
+.intro {
+    background-color: navy;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.featured-project {
+    background-color: khaki;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+}
+
+.hero {
+    background-color: navy;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color:khaki;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    color: black;
+    padding: 20px;
+}
+
+
+/* Desktop styles (1024px and up) */
+@media (min-width: 1024px) {
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+    
+    nav ul {
+        flex-direction: row; /* Horizontal navigation */
+        gap: 25px;
+    }
+    
+    main {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    
+    .intro, .featured-project {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    
+    .hero {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    .cards-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .card {
+        flex: 1;
+        padding: 20px;
+    }
+}
