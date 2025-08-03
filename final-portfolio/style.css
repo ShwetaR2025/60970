@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,6 +14,18 @@ header {
     color: white;
     padding: 15px; /* Less padding on mobile */
     border-radius: 5px;
+}
+
+a:hover {
+    background-color: sienna;
+    color: black;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+a:focus {
+    outline: 3px solid maroon;
+    outline-offset: 2px;
 }
 
 h1 {
@@ -39,6 +55,11 @@ img {
     float: right;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+
 .intro {
     background-color: navy;
     border-radius: 5px;
@@ -46,6 +67,7 @@ img {
     flex-direction: column;
     padding: 20px;
     color: white;
+    animation: fadeIn 1s ease-in;
 }
 
 .featured-project {
@@ -55,6 +77,7 @@ img {
     flex-direction: column;
     padding: 20px;
     color: black;
+    animation: fadeIn 1s ease-in;
 }
 
 .hero {
@@ -64,6 +87,7 @@ img {
     flex-direction: column;
     padding: 20px;
     color: white;
+    animation: fadeIn 1s ease-in;
 }
 
 .cards-container {
@@ -81,8 +105,8 @@ img {
     justify-content: left;
     color: black;
     padding: 20px;
+    animation: fadeIn 1s ease-in;
 }
-
 
 /* Desktop styles (1024px and up) */
 @media (min-width: 1024px) {

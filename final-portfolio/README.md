@@ -7,6 +7,7 @@
 - My website also provides background information about the instructors who are conducting this program.
 
 ## Accessibility Check
+Accessibility check was performed using [WAVE - Web Accessibility Evaluation Tools](https://wave.webaim.org/).
 
 ## Reflection
 Prior to taking this course, I had no knowledge of how websites were developed. This course introduced me to a foreign world of HTML and Cascading Style Sheets (CSS). It helped me understand how desktop versions of websites are very different from the mobile versions of websites. It taught me how to transform the desktop version of my website into a mobile-friendly version. I learnt how to incorporate responsive design into my website to enable it to work on all devices. 
