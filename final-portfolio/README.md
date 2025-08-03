@@ -9,7 +9,7 @@
 ## Accessibility Check
 Accessibility check was performed using [WAVE - Web Accessibility Evaluation Tools](https://wave.webaim.org/).
 
-Below are the results from the testing performed on my website using WAVE. There are zero errors, contrast errors, and alerts on all the pages.
+Below are the results from the testing performed on my website using WAVE. There are **zero** errors, contrast errors, or alerts on all the pages.
 
 ### WAVE test result for Home page
 ![WAVE test result for Home page](images/WAVE_TestResult_Home.png)
