@@ -17,14 +17,14 @@ header {
 }
 
 a:hover {
-    background-color: sienna;
+    background-color: wheat;
     color: black;
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
 
 a:focus {
-    outline: 3px solid maroon;
+    outline: 3px solid sandybrown;
     outline-offset: 2px;
 }
 
@@ -45,6 +45,11 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+
+nav a.current {
+    background-color: lightcyan;
+    color: black;
 }
 
 img {
